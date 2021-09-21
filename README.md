@@ -33,7 +33,7 @@ API routes can be accessed on [http://localhost:3000/api/hello](http://localhost
 
 Any endpoint added under `routes/api.imba` will be available at [http://localhost:3000/api/:endpoint](http://localhost:3000/api/:endpoint).
 
-To add a new Nextjs route, add a new endpoint under `routes/web.imba`:
+To add a new Next.js route, add a new endpoint under `routes/web.imba`:
 
 ```py
 Route.get '/about', do(request, reply\FastifyReply)
