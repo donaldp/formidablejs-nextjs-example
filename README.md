@@ -15,8 +15,8 @@ Get the project ready:
 cd formidablejs-nextjs-example
 npm i
 cp .env.example .env
-craftsman key
-craftsman cache
+npx craftsman key
+npx craftsman cache
 ```
 
 Finally, run the development server:
