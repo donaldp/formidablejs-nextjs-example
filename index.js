@@ -1,4 +1,4 @@
-const { Application } = require('./dist/server.app');
+const { Application } = require('./.formidable/server.app');
 
 const listen = async () => {
 	await Application.then((app) => {
