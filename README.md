@@ -19,6 +19,12 @@ npx craftsman key
 npx craftsman cache
 ```
 
+Build the project:
+
+```bash
+npx craftsman build
+```
+
 Finally, run the development server:
 
 ```bash
