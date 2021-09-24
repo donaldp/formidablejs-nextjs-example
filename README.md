@@ -1,6 +1,8 @@
 # Formidablejs with Next.js
 
 This is a [Formidablejs](https://formidablejs.org) and [Next.js](https://nextjs.org/) project.
+
+See [next-bridge](https://github.com/formidablejs/next-bridge) for the official [Next.js](https://nextjs.org/) plugin for Formidable.
 ## Getting Started
 
 First, clone the repo:
@@ -15,14 +17,14 @@ Get the project ready:
 cd formidablejs-nextjs-example
 npm i
 cp .env.example .env
-npx craftsman key
-npx craftsman cache
+npx @formidablejs/craftsman key
+npx @formidablejs/craftsman cache
 ```
 
 Build the project:
 
 ```bash
-npx craftsman build
+npx @formidablejs/craftsman build
 ```
 
 Finally, run the development server:
